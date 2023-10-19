@@ -1,0 +1,14 @@
+/* Example CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+form {
+    margin: 20px;
+}
+
+/* Style the text inside an element with a specific class */
+.red-text {
+    color: #ff0000;
+}
