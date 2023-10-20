@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>HTMX GO</title>
-    <script src="/static/htmx.min.js"></script>
-    <link rel="stylesheet" href="/static/styles.css"/>
-
-</head>
-<body>
-	<h1>HTMX GO</h1>
-	<div id="counter">
-	<h2 id="counter-value" class="red-text">{{ . }}</h2>
-	<button hx-get="/increment" hx-target="#counter-value">Increment</button>
-	</div>
-</body>
+	<head>
+		<title>
+			HTMX GO
+		</title>
+		<script src="/static/htmx.min.js">
+		</script>
+		<link rel="stylesheet" href="/static/styles.css"/>
+	</head>
+	<body>
+		<h1>
+			HTMX GO
+		</h1>
+		<div id="counter">
+			<h2 id="counter-value" class="red-text">
+				{{ . }}
+			</h2>
+			<button hx-get="/increment" hx-target="#counter-value">
+				Increment
+			</button>
+		</div>
+	</body>
 </html>
